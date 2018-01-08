@@ -105,7 +105,7 @@ const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
 const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001ffffffffffff0f029b2e4c0271c0b42e7c53291a94d1c0cbff8883f8024f5142ee494ffbbd08807121013c086a48c15fb637a96991bc6d53caf77068b5ba6eeb3c82357228c49790584a";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "fartcoin";
@@ -204,6 +204,13 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
   {1343000, "1696231b026b4e10412b16d65ba036c9750d287ab76da7e25efd4ba3fa9ed999"},
   {1372000, "55e02f544df808a12d3c2809b8c7490f8b0729aef196745240e94522c69a7181"}
 };
+
+   "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json",
+        "genesis-block-reward.json",
+        "bug-fixes.json"
+    ]
 } // CryptoNote
 
 #define ALLOW_DEBUG_COMMANDS
