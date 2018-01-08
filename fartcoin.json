@@ -40,7 +40,7 @@
     },
     "extensions": [
         "core/bytecoin.json",
-        "print-genesis-tx.json"
+        "print-genesis-tx.json",
 		"bug-fixes.json"
     ]
 }
