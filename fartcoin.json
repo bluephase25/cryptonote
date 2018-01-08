@@ -5,7 +5,8 @@
     },
     "core": {
         "SEED_NODES": [
-            "45.76.249.210:8080"
+            "45.76.249.210:8080",
+			"45.76.254.189:8080"
         ],
         "EMISSION_SPEED_FACTOR": 18,
         "DIFFICULTY_TARGET": 180,
