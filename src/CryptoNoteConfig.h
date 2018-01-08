@@ -204,13 +204,6 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
   {1343000, "1696231b026b4e10412b16d65ba036c9750d287ab76da7e25efd4ba3fa9ed999"},
   {1372000, "55e02f544df808a12d3c2809b8c7490f8b0729aef196745240e94522c69a7181"}
 };
-
-   "extensions": [
-        "core/bytecoin.json",
-        "print-genesis-tx.json",
-        "genesis-block-reward.json",
-        "bug-fixes.json"
-    ]
 } // CryptoNote
 
 #define ALLOW_DEBUG_COMMANDS
