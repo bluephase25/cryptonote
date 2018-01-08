@@ -1,6 +1,6 @@
 {
     "base_coin": {
-        "name": "fartcoin",
+        "name": "bytecoin",
         "git": "https://github.com/amjuarez/bytecoin.git"
     },
     "core": {
